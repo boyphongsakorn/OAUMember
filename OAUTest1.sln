@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "OAUTest1", "OAUTest1\OAUTest1.vbproj", "{CEB5DABA-0FDA-4374-BEFA-26AF42707D5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEB5DABA-0FDA-4374-BEFA-26AF42707D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEB5DABA-0FDA-4374-BEFA-26AF42707D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEB5DABA-0FDA-4374-BEFA-26AF42707D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEB5DABA-0FDA-4374-BEFA-26AF42707D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDF4052D-426B-4917-9D56-4205FE6B5458}
+	EndGlobalSection
+EndGlobal
