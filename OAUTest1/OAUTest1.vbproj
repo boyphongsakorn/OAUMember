@@ -80,9 +80,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="FreeUser.xaml.vb">
+      <DependentUpon>FreeUser.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GuestWindow.xaml.vb">
+      <DependentUpon>GuestWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Register.xaml.vb">
       <DependentUpon>Register.xaml</DependentUpon>
     </Compile>
+    <Page Include="FreeUser.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GuestWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Login.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

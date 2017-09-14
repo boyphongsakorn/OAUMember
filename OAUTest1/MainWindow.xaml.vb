@@ -18,4 +18,10 @@
         Process.Start("MinecraftAutoSP.exe")
         End
     End Sub
+
+    Private Sub button_Click(sender As Object, e As RoutedEventArgs) Handles button.Click
+        Dim window As New Login()
+        window.Show()
+        Me.Close()
+    End Sub
 End Class

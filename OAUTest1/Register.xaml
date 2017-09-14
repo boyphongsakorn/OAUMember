@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OAUTest1"
         mc:Ignorable="d"
-        Title="Register" Height="300" Width="300">
+        Title="Register" Height="338.408" Width="310" MinWidth="310" MinHeight="338.408" MaxWidth="310" MaxHeight="338.408">
     <Grid>
-        
+        <Label x:Name="label" Content="สมัครสมาชิก OAU Member" Margin="40,10,0,0" VerticalAlignment="Top" FontSize="18" HorizontalAlignment="Left" Width="212"/>
+        <Label x:Name="label1" Content="ชื่อผู้ใช้" HorizontalAlignment="Left" Margin="10,49,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="UNTextBox" HorizontalAlignment="Left" Height="28" Margin="10,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="262" FontSize="18"/>
+        <Label x:Name="label2" Content="รหัสผ่าน" HorizontalAlignment="Left" Margin="10,121,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <PasswordBox x:Name="PWBOX" HorizontalAlignment="Left" Margin="10,160,0,0" VerticalAlignment="Top" Width="262" FontSize="18"/>
+        <Label x:Name="label3" Content="ยืนยันรหัสผ่าน" HorizontalAlignment="Left" Margin="10,191,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="10,230,0,0" VerticalAlignment="Top" Width="262" FontSize="18"/>
+        <Button x:Name="button" Content="สมัคร" HorizontalAlignment="Left" Margin="197,269,0,0" VerticalAlignment="Top" Width="75" FontSize="18"/>
+        <Button x:Name="button1" Content="ย้อนกลับ" HorizontalAlignment="Left" Margin="10,269,0,0" VerticalAlignment="Top" Width="75" FontSize="18"/>
+
     </Grid>
 </Window>
