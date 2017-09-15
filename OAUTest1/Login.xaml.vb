@@ -44,6 +44,7 @@ Public Class Login
                 If count = 1 Then
                     If thisDate > timem Then
                         Dim window As New FreeUser()
+                        MessageBox.Show("Welcome Back," & READER.GetString("username") & "")
                         window.Show()
                         Me.Close()
                     Else

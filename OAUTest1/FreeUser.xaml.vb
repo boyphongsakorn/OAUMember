@@ -16,4 +16,8 @@
     Private Sub button1_Click(sender As Object, e As RoutedEventArgs) Handles button1.Click
         Process.Start("MinecraftAutoSP.exe")
     End Sub
+
+    Private Sub button4_Click(sender As Object, e As RoutedEventArgs) Handles button4.Click
+        Process.Start("https://optifineautoupdater.ga/")
+    End Sub
 End Class
